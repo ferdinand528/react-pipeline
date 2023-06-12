@@ -4,6 +4,7 @@ import "./Home.css";
 
 function Home() {
   const [count, setCount]: [number, Function] = useState(0);
+  const suma = require('./suma');
 
   return (
     <div className="App">

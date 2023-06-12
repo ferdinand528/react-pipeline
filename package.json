@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "test": "jest",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -11,10 +12,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "jest": "^29.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dev": "^1.0.0",
-    "react-router-dom": "^6.12.1"
+    "react-router-dom": "^6.12.1",
+    "test": "^3.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
