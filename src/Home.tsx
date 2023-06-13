@@ -21,7 +21,7 @@ function Home() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Edit <code>Fernandez Alvarez Hayes</code> Fernando David
         </p>
       </div>
       <p className="read-the-docs">
