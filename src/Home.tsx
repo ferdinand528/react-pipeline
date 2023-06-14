@@ -21,7 +21,7 @@ function Home() {
           count is {count}
         </button>
         <p>
-          Edit <code>Fernandez Alvarez Hayes</code> Fernando David
+          <code>Fernandez Alvarez Hayes</code> Fernando David - V1.0
         </p>
       </div>
       <p className="read-the-docs">
