@@ -1,9 +1,9 @@
-const { configure } = require('enzyme');
-const Adapter = require('enzyme-adapter-react-16');
+import Enzyme from 'enzyme';
+import Adapter from '@cfaester/enzyme-adapter-react-18';
 const { JSDOM } = require('jsdom');
 
 // Configurar Enzyme
-configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() });
 
 // Configurar JSDOM
 const jsdom = new JSDOM('<!doctype html><html><body></body></html>', {
