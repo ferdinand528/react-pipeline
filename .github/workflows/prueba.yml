@@ -14,9 +14,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install
-        run: npm i
+        run: npm install --legacy-peer-deps
       
-      - name: Test Titulo
+      - name: Update Dependencies
+        run: npm update
+
+      - name: Test
         run: npm test
 
       - name: Build
