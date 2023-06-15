@@ -12,6 +12,6 @@ describe('App', () => {
       </BrowserRouter>
     );
     const headerText = wrapper.find('h1').text();
-    expect(headerText).to.equal('2do Parcial de Ing de Sw - 202333');
+    expect(headerText).to.equal('2do Parcial de Ing de Sw - 2023');
   });
 });
